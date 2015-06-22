@@ -1,0 +1,57 @@
+.root  {
+	-fx-background-color: linear-gradient(darkgray, gray);
+}
+
+#played-area {
+	-fx-background-color: #66A3D2;
+}
+
+#basic-supply-area {
+	-fx-background-color: #FF9B73;
+}
+
+#supply-area {
+	-fx-background-color: #FFDC73;
+}
+
+#hand-area {
+	-fx-background-color: #66A3D2;
+}
+
+#played-card-type {
+	-fx-fill: linear-gradient(ivory, gold);
+}
+
+#supply-card-image-empty {
+	-fx-opacity: .5;
+}
+
+#supply-card-image {
+	-fx-opacity: 1;
+}
+
+#supply-count-positive {
+	-fx-fill: linear-gradient(ivory, limegreen);
+}
+
+#supply-count-zero {
+	-fx-fill: linear-gradient(ivory, red);
+}
+
+#trash-count {
+	-fx-fill: linear-gradient(ivory, purple);
+}
+
+#deck-count {
+	-fx-fill: linear-gradient(ivory, cyan);
+}
+
+#discard-count {
+	-fx-fill: linear-gradient(ivory, red);
+}
+
+#mat:focused {
+	-fx-background-color: darkgray;
+}
+
+

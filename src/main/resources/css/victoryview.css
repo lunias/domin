@@ -1,0 +1,41 @@
+.root { 
+    -fx-background-color: linear-gradient(darkgray, gray);
+}
+
+.progress-bar { 
+	-fx-box-border: red;
+}
+
+.separator{
+    -fx-background-color: limegreen;
+    -fx-background-radius: 2;
+}
+
+#progress-bar { 
+	-fx-accent: gold;
+}
+
+#winner-message {
+	-fx-fill: linear-gradient(gold, red);
+}
+
+#player-name {
+	-fx-fill: linear-gradient(black, black);
+}
+
+#player-total {
+	-fx-fill: linear-gradient(black, black);
+}
+
+#text-label {
+	-fx-font-size: 24px;
+   	-fx-fill: black;
+   	-fx-font-weight: bold;
+}
+
+#number {
+	-fx-font-size: 24px;
+   	-fx-fill: black;
+   	-fx-text-alignment: center;
+}
+

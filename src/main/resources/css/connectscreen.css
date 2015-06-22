@@ -1,0 +1,17 @@
+.root  {
+	-fx-background-color: linear-gradient(darkgray, gray);
+}
+
+.titled-pane .title { 
+    -fx-cursor: "hand";
+    -fx-focus-color: #555555;
+    -fx-font-size: 12pt;             
+    -fx-text-fill: black;    
+}
+
+#title-text {
+	-fx-font-size: 48px;
+	-fx-font-family: "Arial Black";
+   	-fx-fill: orange;
+   	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );	
+}
